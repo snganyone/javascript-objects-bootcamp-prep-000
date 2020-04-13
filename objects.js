@@ -12,4 +12,4 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist;
 }
 
-updatePlaylist()
+updatePlaylist(playlist, "James", "Redemption")
