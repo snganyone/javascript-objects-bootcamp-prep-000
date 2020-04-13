@@ -1,13 +1,13 @@
 var playlist = {
-  Pink Floyd: "Roses",
-  Prince: "Purple Rain",
-  Green Day: "21 GUns"
+  My Bloody Valentine = "Sometimes",
+  Phil Ochs = "Here's to the State of Mississippi"
 }
 
-function updatePlaylist(playlist, name, title) {
-  return Object.assign({}, playlist, {[name]: title})
+function updatePlaylist(playlist, artistName, songTitle) {
+  return Object.assign({}, playlist, artistName, songTitle)
 }
 
-function removeFromPlaylist() {
-
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist;
 }
