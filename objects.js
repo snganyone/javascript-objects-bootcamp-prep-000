@@ -1,4 +1,6 @@
-var playlist = {
+var playlist = new Object();
+
+playlist = {
   Prince: "Purple Rain",
   PinkFloyd: "Star"
 }
